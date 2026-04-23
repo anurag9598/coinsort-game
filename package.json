@@ -1,0 +1,35 @@
+{
+  "name": "coin-sort-puzzle",
+  "version": "1.0.0",
+  "description": "Puzzle game where players sort coins into their respective slots.",
+  "main": "App.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios"
+  },
+  "dependencies": {
+    "expo": "^51.0.0",
+    "react": "18.3.1",
+    "react-native": "0.74.5"
+  },
+  "devDependencies": {},
+  "expo": {
+    "name": "Coin Sort Puzzle",
+    "slug": "coin-sort-puzzle",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./coinsort.jpg",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "com.coinsortstudios.puzzle",
+      "versionCode": 1,
+      "permissions": []
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.coinsortstudios.puzzle"
+    }
+  }
+}

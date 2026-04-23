@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "551bdbda-af56-4f9f-972d-e3a74b317015"
+      }
+    },
+    "android": {
+      "package": "com.nipnix.coinsortpuzzle"
+    },
+    "ios": {
+      "bundleIdentifier": "com.nipnix.coinsortpuzzle",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    }
+  }
+}
