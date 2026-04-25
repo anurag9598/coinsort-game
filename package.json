@@ -9,11 +9,17 @@
     "ios": "expo start --ios"
   },
   "dependencies": {
-    "expo": "^51.0.0",
-    "react": "18.3.1",
-    "react-native": "0.74.5"
+    "expo": "^55.0.17",
+    "expo-av": "^16.0.8",
+    "expo-haptics": "~55.0.14",
+    "expo-linear-gradient": "~55.0.13",
+    "expo-status-bar": "~55.0.5",
+    "react": "19.2.0",
+    "react-native": "0.83.6",
+    "react-native-safe-area-context": "~5.6.2",
+    "react-native-screens": "~4.23.0",
+    "react-native-svg": "15.15.3"
   },
-  "devDependencies": {},
   "expo": {
     "name": "Coin Sort Puzzle",
     "slug": "coin-sort-puzzle",
@@ -21,15 +27,16 @@
     "orientation": "portrait",
     "icon": "./coinsort.jpg",
     "userInterfaceStyle": "light",
-    "assetBundlePatterns": ["**/*"],
-    "android": {
-      "package": "com.coinsortstudios.puzzle",
-      "versionCode": 1,
-      "permissions": []
-    },
-    "ios": {
-      "supportsTablet": false,
-      "bundleIdentifier": "com.coinsortstudios.puzzle"
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "projectId": "551bdbda-af56-4f9f-972d-e3a74b317015",
+    "doctor": {
+      "reactNativeDirectoryCheck": {
+        "exclude": [
+          "expo-av"
+        ]
+      }
     }
   }
 }

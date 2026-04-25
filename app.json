@@ -1,17 +1,45 @@
 {
   "expo": {
+    "name": "Coin Sort Puzzle",
+    "slug": "coin-sort-puzzle",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#facf64",
+    "icon": "./coinsort.jpg",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "projectId": "551bdbda-af56-4f9f-972d-e3a74b317015",
+    "android": {
+      "package": "com.nipnix.coinsortpuzzle",
+      "versionCode": 1,
+      "permissions": ["INTERNET","android.permission.CAMERA","android.permission.VIBRATE","android.permission.ACCESS_FINE_LOCATION"]
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.nipnix.coinsortpuzzle",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "NSCameraUsageDescription": "We need camera access better gameplay experience",
+        "NSMotionUsageDescription": "We need permission to access your device vibration for game feedback",
+        "NSLocationWhenInUseUsageDescription": "We need your location for gameplay features"
+      }
+    },
+    "web": {
+      "favicon": "./coinsort.jpg"
+    },
+    
     "extra": {
       "eas": {
         "projectId": "551bdbda-af56-4f9f-972d-e3a74b317015"
       }
     },
-    "android": {
-      "package": "com.nipnix.coinsortpuzzle"
-    },
-    "ios": {
-      "bundleIdentifier": "com.nipnix.coinsortpuzzle",
-      "infoPlist": {
-        "ITSAppUsesNonExemptEncryption": false
+    "doctor": {
+      "reactNativeDirectoryCheck": {
+        "exclude": [
+          "expo-av"
+        ]
       }
     }
   }
